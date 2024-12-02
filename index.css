@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbecac;
+    color: #333;
+}
+header {
+    background-color: #f2a3a3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 0;
+}
+section {
+    padding: 20px;
+}
+section h2 {
+    color: #333;
+}
+.bio, .skills, .contact-form {
+    margin-top: 20px;
+}
+.bio p, .skills ul {
+    font-size: 18px;
+}
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-form input, .contact-form textarea {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact-form button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
